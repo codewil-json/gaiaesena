@@ -505,6 +505,7 @@ body.has-scroll-reveal .reveal:not(.is-visible) {
   }
 
   .menu-toggle {
+    position: relative;
     width: 44px;
     height: 44px;
     display: flex;
@@ -522,6 +523,15 @@ body.has-scroll-reveal .reveal:not(.is-visible) {
     width: 18px;
     height: 1px;
     background: var(--gold-light);
+    transition: transform .3s ease;
+  }
+
+  .menu-toggle[aria-expanded="true"] span:first-child {
+    transform: translateY(3.5px) rotate(45deg);
+  }
+
+  .menu-toggle[aria-expanded="true"] span:last-child {
+    transform: translateY(-3.5px) rotate(-45deg);
   }
 
   .main-navigation {
@@ -529,17 +539,29 @@ body.has-scroll-reveal .reveal:not(.is-visible) {
     top: 71px;
     right: 0;
     left: 0;
-    display: none;
+    display: flex;
     align-items: stretch;
     gap: 0;
     padding: 12px 24px 24px;
     background: var(--brand-bg);
     border-bottom: 1px solid rgba(255, 255, 255, .12);
+    box-shadow: 0 16px 24px rgba(16, 43, 45, .16);
+    clip-path: inset(0 100% 0 0);
+    visibility: hidden;
+    pointer-events: none;
+    transition:
+      clip-path .42s cubic-bezier(.22, .68, 0, 1),
+      visibility 0s linear .42s;
   }
 
   .main-navigation.is-open {
-    display: flex;
     flex-direction: column;
+    clip-path: inset(0);
+    visibility: visible;
+    pointer-events: auto;
+    transition:
+      clip-path .42s cubic-bezier(.22, .68, 0, 1),
+      visibility 0s;
   }
 
   .main-navigation > a:not(.header-cta) {
