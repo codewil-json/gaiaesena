@@ -1,15 +1,44 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="description" content="Gaia &amp; Sena Advogados Associados em Maceió, AL. Atendimento em Família e Sucessões, Penal, Trabalhista e Previdenciário.">
+    <meta name="theme-color" content="#23333e">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Gaia &amp; Sena Advogados Associados | Advocacia em Maceió">
+    <meta property="og:description" content="Advocacia próxima e comprometida em Família e Sucessões, Penal, Trabalhista e Previdenciário. Atendimento em Maceió, Alagoas.">
+    <meta property="og:image" content="<%= BASE_URL %>img/logo-gaia-sena.webp">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" type="image/x-icon" href="<%= BASE_URL %>favicon.ico?v=gaia-sena">
+    <link rel="shortcut icon" type="image/x-icon" href="<%= BASE_URL %>favicon.ico?v=gaia-sena">
+    <title>Gaia &amp; Sena Advogados Associados | Advocacia em Maceió</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "name": "Gaia & Sena Advogados Associados",
+        "image": "/img/logo-gaia-sena.webp",
+        "email": ["beatrizgdecarvalho@gmail.com", "niedjasena.adv@gmail.com"],
+        "telephone": ["+55 82 99926-4158", "+55 82 98849-2067"],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rua Sampaio Marques, 25, Ed. Delman Empresarial, Sala 217",
+          "addressLocality": "Maceió",
+          "addressRegion": "AL",
+          "postalCode": "57030-107",
+          "addressCountry": "BR"
+        },
+        "areaServed": "Maceió, AL",
+        "knowsAbout": ["Família e Sucessões", "Direito Penal", "Direito Trabalhista", "Direito Previdenciário"]
+      }
+    </script>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>Este site precisa de JavaScript para funcionar corretamente. Ative o JavaScript para continuar.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
