@@ -115,7 +115,7 @@ export default {
 .practice-hero h1 {
   margin: 20px 0 14px;
   font-family: var(--serif);
-  font-size: clamp(48px, 6vw, 72px);
+  font-size: clamp(60.5px, 7.6vw, 90.7px);
   font-weight: 500;
   letter-spacing: -.035em;
 }
@@ -129,7 +129,7 @@ export default {
   max-width: 560px;
   margin: 0 0 26px;
   color: rgba(255, 255, 255, .76);
-  font-size: 15px;
+  font-size: 19px;
   line-height: 1.8;
 }
 
@@ -165,20 +165,20 @@ export default {
   gap: 12px;
   padding-top: 11px;
   color: #a78b5e;
-  font-size: 10px;
+  font-size: 16px;
   letter-spacing: .12em;
 }
 
 .detail-index span {
   color: var(--ink-soft);
-  font-size: 10px;
+  font-size: 16px;
   letter-spacing: .05em;
 }
 
 .detail-content h2 {
   margin: 0 0 13px;
   font-family: var(--serif);
-  font-size: 29px;
+  font-size: 36.7px;
   font-weight: 500;
 }
 
@@ -186,7 +186,7 @@ export default {
   max-width: 690px;
   margin: 0;
   color: var(--ink-soft);
-  font-size: 13px;
+  font-size: 17px;
   line-height: 1.9;
 }
 
@@ -198,7 +198,7 @@ export default {
   color: var(--forest);
   border: 1px solid var(--line);
   border-radius: 50%;
-  font-size: 16px;
+  font-size: 21.6px;
   text-decoration: none;
   transition: color .2s ease, background .2s ease, border-color .2s ease;
 }
@@ -231,14 +231,14 @@ export default {
 .practice-cta h2 {
   margin: 14px 0 8px;
   font-family: var(--serif);
-  font-size: clamp(30px, 4vw, 43px);
+  font-size: clamp(37.8px, 5vw, 54px);
   font-weight: 500;
 }
 
 .practice-cta p {
   margin: 0;
   color: rgba(255, 255, 255, .75);
-  font-size: 13px;
+  font-size: 17px;
 }
 
 .button-light {
@@ -252,7 +252,7 @@ export default {
   color: var(--forest-deep);
   background: var(--gold-light);
   border: 1px solid var(--gold-light);
-  font-size: 11px;
+  font-size: 16px;
   font-weight: 700;
   text-decoration: none;
   transition: background .2s ease, transform .2s ease;
@@ -276,7 +276,7 @@ export default {
   }
 
   .practice-hero p {
-    font-size: 13px;
+    font-size: 17px;
   }
 
   .practice-details {
@@ -296,11 +296,11 @@ export default {
   }
 
   .detail-content h2 {
-    font-size: 25px;
+    font-size: 31.3px;
   }
 
   .detail-content p {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .practice-cta {
@@ -313,7 +313,7 @@ export default {
   }
 
   .practice-cta h2 {
-    font-size: 35px;
+    font-size: 44.3px;
   }
 }
 </style>

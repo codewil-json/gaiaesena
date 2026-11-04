@@ -228,7 +228,7 @@ export default {
   margin: 25px 0 20px;
   color: var(--forest-deep);
   font-family: var(--serif);
-  font-size: clamp(45px, 5.2vw, 70px);
+  font-size: clamp(57.2px, 6.5vw, 88.6px);
   font-weight: 500;
   letter-spacing: -.035em;
   line-height: 1.08;
@@ -244,7 +244,7 @@ export default {
   max-width: 470px;
   margin: 0;
   color: var(--ink-soft);
-  font-size: 15px;
+  font-size: 19px;
   line-height: 1.85;
 }
 
@@ -257,7 +257,7 @@ export default {
 }
 
 .hero-actions .text-link {
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .hero-note {
@@ -266,7 +266,7 @@ export default {
   gap: 13px;
   margin-top: 54px;
   color: #677476;
-  font-size: 11px;
+  font-size: 16px;
   line-height: 1.55;
   letter-spacing: .03em;
 }
@@ -280,7 +280,7 @@ export default {
   border: 1px solid var(--gold);
   border-radius: 50%;
   font-family: var(--serif);
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .hero-visual {
@@ -351,7 +351,7 @@ export default {
 
 .hero-visual-caption span {
   font-family: var(--serif);
-  font-size: 21px;
+  font-size: 27px;
 }
 
 .hero-visual-caption b {
@@ -361,7 +361,7 @@ export default {
 
 .hero-visual-caption small {
   color: var(--ink-soft);
-  font-size: 9px;
+  font-size: 16px;
   letter-spacing: .16em;
   text-transform: uppercase;
 }
@@ -372,7 +372,7 @@ export default {
   left: 1%;
   color: var(--gold);
   font-family: var(--serif);
-  font-size: 56px;
+  font-size: 70.2px;
   opacity: .7;
 }
 
@@ -384,7 +384,7 @@ export default {
   padding: 0 max(32px, calc((100% - 1200px) / 2));
   color: rgba(255, 255, 255, .72);
   background: var(--forest);
-  font-size: 10px;
+  font-size: 16px;
   letter-spacing: .1em;
   text-transform: uppercase;
 }
@@ -414,7 +414,7 @@ export default {
   max-width: 540px;
   margin: 22px 0 0;
   font-family: var(--serif);
-  font-size: clamp(36px, 4vw, 54px);
+  font-size: clamp(45.4px, 5vw, 68px);
   font-weight: 500;
   letter-spacing: -.025em;
   line-height: 1.15;
@@ -423,7 +423,7 @@ export default {
 .office-copy p {
   margin: 0 0 17px;
   color: var(--ink-soft);
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.9;
 }
 
@@ -480,7 +480,7 @@ export default {
 
 .practice-number {
   color: #9a8b71;
-  font-size: 10px;
+  font-size: 16px;
   letter-spacing: .12em;
 }
 
@@ -490,13 +490,13 @@ export default {
   right: 25px;
   color: var(--gold);
   font-family: var(--serif);
-  font-size: 27px;
+  font-size: 33.5px;
 }
 
 .practice-card h3 {
   margin: 42px 0 11px;
   font-family: var(--serif);
-  font-size: 20px;
+  font-size: 25.9px;
   font-weight: 500;
 }
 
@@ -504,7 +504,7 @@ export default {
   min-height: 64px;
   margin: 0;
   color: var(--ink-soft);
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.7;
 }
 
@@ -513,7 +513,7 @@ export default {
   gap: 9px;
   margin-top: 19px;
   color: var(--forest);
-  font-size: 11px;
+  font-size: 16px;
   font-weight: 700;
   text-decoration: none;
 }
@@ -524,7 +524,7 @@ export default {
   gap: 13px;
   margin-top: 30px;
   color: var(--forest);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   text-decoration: none;
 }
@@ -544,7 +544,7 @@ export default {
 .team-copy h2 {
   margin: 21px 0 16px;
   font-family: var(--serif);
-  font-size: clamp(36px, 4vw, 50px);
+  font-size: clamp(45.4px, 5vw, 62.6px);
   font-weight: 500;
   letter-spacing: -.025em;
   line-height: 1.13;
@@ -553,7 +553,7 @@ export default {
 .team-copy p {
   margin: 0 0 23px;
   color: var(--ink-soft);
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.85;
 }
 
@@ -594,7 +594,7 @@ export default {
 
 .team-card-caption > span {
   color: #92856f;
-  font-size: 9px;
+  font-size: 16px;
   letter-spacing: .15em;
   text-transform: uppercase;
 }
@@ -602,13 +602,13 @@ export default {
 .team-card-caption h3 {
   margin: 5px 0 13px;
   font-family: var(--serif);
-  font-size: 21px;
+  font-size: 27px;
   font-weight: 500;
 }
 
 .team-card-caption a {
   color: var(--forest);
-  font-size: 10px;
+  font-size: 16px;
   text-decoration: none;
 }
 
@@ -638,7 +638,7 @@ export default {
 .contact-banner h2 {
   margin: 15px 0 0;
   font-family: var(--serif);
-  font-size: clamp(31px, 3.7vw, 46px);
+  font-size: clamp(38.9px, 4.6vw, 58.3px);
   font-weight: 500;
 }
 
@@ -652,7 +652,7 @@ export default {
   color: var(--forest-deep);
   background: var(--gold-light);
   border: 1px solid var(--gold-light);
-  font-size: 11px;
+  font-size: 16px;
   font-weight: 700;
   text-decoration: none;
   transition: background .2s ease, transform .2s ease;
@@ -702,7 +702,7 @@ export default {
 .detail-label {
   margin-bottom: 3px;
   color: #8d7a58;
-  font-size: 9px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: .16em;
   text-transform: uppercase;
@@ -711,7 +711,7 @@ export default {
 .contact-detail a {
   width: fit-content;
   color: var(--ink-soft);
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.75;
   text-decoration: none;
   transition: color .2s ease;
@@ -754,7 +754,7 @@ export default {
   }
 
   .practice-card h3 {
-    font-size: 18px;
+    font-size: 23.8px;
   }
 
   .team-grid {
@@ -778,11 +778,11 @@ export default {
 
   .hero-copy h1 {
     margin-top: 20px;
-    font-size: clamp(43px, 12vw, 58px);
+    font-size: clamp(54px, 15.1vw, 73.4px);
   }
 
   .hero-copy > p {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .hero-actions {
@@ -821,7 +821,7 @@ export default {
     min-height: 56px;
     gap: 15px;
     padding: 0 20px;
-    font-size: 8px;
+    font-size: 16px;
     letter-spacing: .07em;
   }
 
@@ -845,12 +845,12 @@ export default {
   .office-intro h2,
   .section-heading h2,
   .team-copy h2 {
-    font-size: 39px;
+    font-size: 48.6px;
   }
 
   .office-copy p,
   .team-copy p {
-    font-size: 13px;
+    font-size: 17px;
   }
 
   .practice-heading {
@@ -881,12 +881,12 @@ export default {
 
   .practice-card h3 {
     margin-top: 37px;
-    font-size: 17px;
+    font-size: 22.7px;
   }
 
   .practice-card p {
     min-height: 81px;
-    font-size: 11px;
+    font-size: 16px;
   }
 
   .practice-symbol {
@@ -912,7 +912,7 @@ export default {
   }
 
   .team-card-caption h3 {
-    font-size: 18px;
+    font-size: 23.8px;
   }
 
   .contact-banner {
@@ -926,7 +926,7 @@ export default {
   }
 
   .contact-banner h2 {
-    font-size: 35px;
+    font-size: 44.3px;
   }
 
   .contact-grid {

@@ -410,7 +410,7 @@ export default {
 .articles-hero h1 {
   margin: 20px 0 14px;
   font-family: var(--serif);
-  font-size: clamp(48px, 6vw, 72px);
+  font-size: clamp(60.5px, 7.6vw, 90.7px);
   font-weight: 500;
   letter-spacing: -.035em;
 }
@@ -424,13 +424,13 @@ export default {
   max-width: 560px;
   margin: 0 0 18px;
   color: rgba(255, 255, 255, .76);
-  font-size: 15px;
+  font-size: 19px;
   line-height: 1.8;
 }
 
 .articles-source {
   color: var(--gold-light);
-  font-size: 10px;
+  font-size: 16px;
   letter-spacing: .12em;
   text-transform: uppercase;
 }
@@ -449,7 +449,7 @@ export default {
   margin: 0 0 32px;
   color: var(--ink);
   font-family: var(--serif);
-  font-size: clamp(30px, 4vw, 42px);
+  font-size: clamp(37.8px, 5vw, 52.9px);
   font-weight: 500;
   line-height: 1.2;
 }
@@ -466,7 +466,7 @@ export default {
   color: var(--forest);
   background: var(--white);
   border: 1px solid var(--line);
-  font-size: 11px;
+  font-size: 16px;
   text-decoration: none;
   transition: color .2s ease, background .2s ease, border-color .2s ease;
 }
@@ -490,14 +490,14 @@ export default {
   margin: 24px 0 18px;
   color: var(--ink);
   font-family: var(--serif);
-  font-size: clamp(24px, 3vw, 32px);
+  font-size: clamp(30.2px, 3.8vw, 41px);
   font-weight: 500;
   line-height: 1.25;
 }
 
 .guide-article > p {
   color: var(--ink-soft);
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.9;
 }
 
@@ -506,7 +506,7 @@ export default {
   padding-left: 14px;
   color: #777064;
   border-left: 2px solid var(--gold);
-  font-size: 12px;
+  font-size: 16px;
   font-style: italic;
 }
 
@@ -527,7 +527,7 @@ export default {
 .news-heading p {
   margin: 0;
   color: var(--ink-soft);
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.8;
 }
 
@@ -556,7 +556,7 @@ export default {
   justify-content: space-between;
   gap: 12px;
   color: #8d7a58;
-  font-size: 9px;
+  font-size: 16px;
   letter-spacing: .12em;
   text-transform: uppercase;
 }
@@ -565,7 +565,7 @@ export default {
   max-width: 560px;
   margin: 24px 0 12px;
   font-family: var(--serif);
-  font-size: clamp(21px, 2.4vw, 27px);
+  font-size: clamp(27px, 3vw, 33.5px);
   font-weight: 500;
   line-height: 1.28;
 }
@@ -583,7 +583,7 @@ export default {
 .article-card p {
   margin: 0 0 20px;
   color: var(--ink-soft);
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.75;
 }
 
@@ -593,7 +593,7 @@ export default {
   gap: 9px;
   margin-top: auto;
   color: var(--forest);
-  font-size: 11px;
+  font-size: 16px;
   font-weight: 700;
   text-decoration: none;
 }
@@ -612,7 +612,7 @@ export default {
   bottom: -19px;
   color: rgba(201, 166, 106, .12);
   font-family: var(--serif);
-  font-size: 68px;
+  font-size: 85.3px;
   line-height: 1;
   pointer-events: none;
 }
@@ -621,7 +621,7 @@ export default {
   padding: 36px 24px;
   color: var(--ink-soft);
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .articles-error p {
@@ -638,7 +638,7 @@ export default {
   }
 
   .articles-hero p {
-    font-size: 13px;
+    font-size: 17px;
   }
 
   .articles-section {
@@ -652,11 +652,11 @@ export default {
 
   .guide-article h3 {
     margin: 20px 0 14px;
-    font-size: 25px;
+    font-size: 31.3px;
   }
 
   .guide-article > p {
-    font-size: 13px;
+    font-size: 17px;
   }
 
   .news-section {

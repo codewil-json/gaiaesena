@@ -257,7 +257,7 @@ button:focus-visible, a:focus-visible {
 
 .main-navigation > a:not(.header-cta) {
   color: rgba(255, 255, 255, .78);
-  font-size: 13px;
+  font-size: 17px;
   text-decoration: none;
   transition: color .2s ease;
 }
@@ -279,7 +279,7 @@ button:focus-visible, a:focus-visible {
   background: var(--forest);
   border: 1px solid var(--forest);
   border-radius: 2px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
   letter-spacing: .03em;
   text-decoration: none;
@@ -292,7 +292,7 @@ button:focus-visible, a:focus-visible {
   color: var(--forest-deep);
   background: var(--gold-light);
   border-color: var(--gold-light);
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .button-arrow {
@@ -343,18 +343,18 @@ button:focus-visible, a:focus-visible {
 .footer-main p {
   margin: 0;
   font-family: var(--serif);
-  font-size: 19px;
+  font-size: 23px;
 }
 
 .footer-top {
   color: var(--gold-light);
-  font-size: 12px;
+  font-size: 15px;
   text-decoration: none;
 }
 
 .footer-articles {
   color: var(--gold-light);
-  font-size: 12px;
+  font-size: 15px;
   text-decoration: none;
 }
 
@@ -369,7 +369,7 @@ button:focus-visible, a:focus-visible {
   justify-content: space-between;
   gap: 16px;
   padding-top: 21px;
-  font-size: 11px;
+  font-size: 14px;
   letter-spacing: .04em;
 }
 
@@ -378,7 +378,7 @@ button:focus-visible, a:focus-visible {
   align-items: center;
   gap: 8px;
   color: rgba(255, 255, 255, .54);
-  font-size: 9px;
+  font-size: 13px;
   letter-spacing: .06em;
   text-transform: uppercase;
 }
@@ -408,7 +408,7 @@ button:focus-visible, a:focus-visible {
   align-items: center;
   gap: 12px;
   color: var(--gold);
-  font-size: 10px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: .2em;
   text-transform: uppercase;
@@ -434,7 +434,7 @@ button:focus-visible, a:focus-visible {
   margin: 18px 0;
   color: var(--ink);
   font-family: var(--serif);
-  font-size: clamp(36px, 4vw, 54px);
+  font-size: clamp(45.4px, 5vw, 68px);
   font-weight: 500;
   line-height: 1.12;
 }
@@ -442,7 +442,7 @@ button:focus-visible, a:focus-visible {
 .section-heading p {
   max-width: 570px;
   color: var(--ink-soft);
-  font-size: 15px;
+  font-size: 19px;
   line-height: 1.8;
 }
 
@@ -451,7 +451,7 @@ button:focus-visible, a:focus-visible {
   align-items: center;
   gap: 12px;
   color: var(--forest);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   text-decoration: none;
 }
@@ -625,7 +625,7 @@ body.has-scroll-reveal .reveal:not(.is-visible) {
 
   .footer-main p {
     max-width: 280px;
-    font-size: 17px;
+    font-size: 21px;
   }
 
   .footer-bottom {
