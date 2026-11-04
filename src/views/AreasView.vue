@@ -1,7 +1,7 @@
 <template>
   <div class="practice-view">
     <section class="practice-hero">
-      <div class="section-wrap">
+      <div class="section-wrap reveal">
         <span class="eyebrow">Gaia &amp; Sena · Maceió, AL</span>
         <h1>Áreas de <em>atuação</em></h1>
         <p>
@@ -16,7 +16,7 @@
 
     <section class="practice-details">
       <div class="section-wrap">
-        <article id="familia" class="detail-row">
+        <article id="familia" class="detail-row reveal">
           <div class="detail-index">01 <span>Família e Sucessões</span></div>
           <div class="detail-content">
             <h2>Família e Sucessões</h2>
@@ -31,7 +31,7 @@
             ↗
           </a>
         </article>
-        <article id="penal" class="detail-row">
+        <article id="penal" class="detail-row reveal">
           <div class="detail-index">02 <span>Penal</span></div>
           <div class="detail-content">
             <h2>Direito Penal</h2>
@@ -45,7 +45,7 @@
             ↗
           </a>
         </article>
-        <article id="trabalhista" class="detail-row">
+        <article id="trabalhista" class="detail-row reveal">
           <div class="detail-index">03 <span>Trabalhista</span></div>
           <div class="detail-content">
             <h2>Direito Trabalhista</h2>
@@ -59,7 +59,7 @@
             ↗
           </a>
         </article>
-        <article id="previdenciario" class="detail-row">
+        <article id="previdenciario" class="detail-row reveal">
           <div class="detail-index">04 <span>Previdenciário</span></div>
           <div class="detail-content">
             <h2>Direito Previdenciário</h2>
@@ -77,7 +77,7 @@
     </section>
 
     <section class="practice-cta">
-      <div class="section-wrap practice-cta-inner">
+      <div class="section-wrap practice-cta-inner reveal">
         <div>
           <span class="eyebrow">Atendimento em Maceió, Alagoas</span>
           <h2>Precisa de orientação para o seu caso?</h2>

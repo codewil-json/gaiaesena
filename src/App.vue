@@ -62,10 +62,52 @@ export default {
   name: 'App',
   data() {
     return {
-      menuOpen: false
+      menuOpen: false,
+      revealObserver: null
     }
   },
+  mounted() {
+    if (
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      || !('IntersectionObserver' in window)
+    ) {
+      return
+    }
+
+    this.revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible')
+          this.revealObserver.unobserve(entry.target)
+        }
+      })
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -8% 0px'
+    })
+
+    document.body.classList.add('has-scroll-reveal')
+    this.observeRevealElements()
+  },
+  watch: {
+    $route() {
+      this.$nextTick(() => this.observeRevealElements())
+    }
+  },
+  beforeUnmount() {
+    if (this.revealObserver) {
+      this.revealObserver.disconnect()
+    }
+    document.body.classList.remove('has-scroll-reveal')
+  },
   methods: {
+    observeRevealElements() {
+      if (!this.revealObserver) return
+
+      document.querySelectorAll('#conteudo .reveal:not(.is-visible)').forEach((element) => {
+        this.revealObserver.observe(element)
+      })
+    },
     windowScrollTop() {
       window.scrollTo({ top: 0, behavior: 'smooth' })
     }
@@ -393,12 +435,40 @@ button:focus-visible, a:focus-visible {
 }
 
 .reveal {
-  animation: rise-in .7s both;
+  opacity: 1;
+  translate: 0 0;
+  transition:
+    opacity .65s ease var(--reveal-delay, 0ms),
+    translate .65s cubic-bezier(.2, .7, .2, 1) var(--reveal-delay, 0ms);
 }
 
-@keyframes rise-in {
-  from { opacity: 0; transform: translateY(14px); }
-  to { opacity: 1; transform: translateY(0); }
+.practice-card.reveal {
+  transition:
+    background .25s ease,
+    transform .25s ease,
+    opacity .65s ease var(--reveal-delay, 0ms),
+    translate .65s cubic-bezier(.2, .7, .2, 1) var(--reveal-delay, 0ms);
+}
+
+body.has-scroll-reveal .reveal:not(.is-visible) {
+  opacity: 0;
+  translate: 0 20px;
+}
+
+.practice-grid .reveal:nth-child(2),
+.team-cards .reveal:nth-child(2),
+.practice-details .detail-row:nth-child(2) {
+  --reveal-delay: .08s;
+}
+
+.practice-grid .reveal:nth-child(3),
+.practice-details .detail-row:nth-child(3) {
+  --reveal-delay: .16s;
+}
+
+.practice-grid .reveal:nth-child(4),
+.practice-details .detail-row:nth-child(4) {
+  --reveal-delay: .24s;
 }
 
 @media (max-width: 900px) {

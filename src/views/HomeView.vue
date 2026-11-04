@@ -21,7 +21,7 @@
           </div>
         </div>
 
-        <div class="hero-visual" aria-label="Retratos das advogadas do escritório">
+        <div class="hero-visual reveal" aria-label="Retratos das advogadas do escritório">
           <div class="hero-photo hero-photo-main">
             <img src="/img/beatriz-gaia.webp" alt="Dra. Beatriz Gaia, advogada">
           </div>
@@ -35,7 +35,7 @@
           <span class="hero-ornament" aria-hidden="true">§</span>
         </div>
       </div>
-      <div class="hero-bottom">
+      <div class="hero-bottom reveal">
         <span>Atuação pautada por ética e transparência</span>
         <a href="#escritorio">Conheça o escritório <span aria-hidden="true">↓</span></a>
       </div>
@@ -43,11 +43,11 @@
 
     <section id="escritorio" class="office-section">
       <div class="section-wrap office-grid">
-        <div class="office-intro">
+        <div class="office-intro reveal">
           <span class="eyebrow">Gaia &amp; Sena Advogados Associados</span>
           <h2>Direito se faz com conhecimento. E também com <em>presença.</em></h2>
         </div>
-        <div class="office-copy">
+        <div class="office-copy reveal">
           <p>
             Acreditamos que uma boa orientação começa pela escuta. Nosso trabalho
             une cuidado no atendimento, análise responsável e comunicação clara
@@ -64,7 +64,7 @@
 
     <section id="atuacao" class="practice-section">
       <div class="section-wrap">
-        <div class="section-heading practice-heading">
+        <div class="section-heading practice-heading reveal">
           <span class="eyebrow">Como podemos ajudar</span>
           <h2>Áreas de atuação</h2>
           <p>
@@ -73,28 +73,28 @@
           </p>
         </div>
         <div class="practice-grid">
-          <article class="practice-card">
+          <article class="practice-card reveal">
             <span class="practice-number">01</span>
             <span class="practice-symbol" aria-hidden="true">⌂</span>
             <h3>Família e Sucessões</h3>
             <p>Orientação em relações familiares, organização patrimonial e questões sucessórias.</p>
             <router-link to="/areas-de-atuacao#familia">Saiba mais <span aria-hidden="true">↗</span></router-link>
           </article>
-          <article class="practice-card">
+          <article class="practice-card reveal">
             <span class="practice-number">02</span>
             <span class="practice-symbol" aria-hidden="true">§</span>
             <h3>Penal</h3>
             <p>Atuação jurídica responsável e acompanhamento cuidadoso em questões criminais.</p>
             <router-link to="/areas-de-atuacao#penal">Saiba mais <span aria-hidden="true">↗</span></router-link>
           </article>
-          <article class="practice-card">
+          <article class="practice-card reveal">
             <span class="practice-number">03</span>
             <span class="practice-symbol" aria-hidden="true">↔</span>
             <h3>Trabalhista</h3>
             <p>Suporte em relações de trabalho, direitos e deveres de trabalhadores e empregadores.</p>
             <router-link to="/areas-de-atuacao#trabalhista">Saiba mais <span aria-hidden="true">↗</span></router-link>
           </article>
-          <article class="practice-card">
+          <article class="practice-card reveal">
             <span class="practice-number">04</span>
             <span class="practice-symbol" aria-hidden="true">◷</span>
             <h3>Previdenciário</h3>
@@ -102,7 +102,7 @@
             <router-link to="/areas-de-atuacao#previdenciario">Saiba mais <span aria-hidden="true">↗</span></router-link>
           </article>
         </div>
-        <router-link class="all-practices-link" to="/areas-de-atuacao">
+        <router-link class="all-practices-link reveal" to="/areas-de-atuacao">
           Veja detalhes das áreas de atuação <span aria-hidden="true">→</span>
         </router-link>
       </div>
@@ -110,7 +110,7 @@
 
     <section id="equipe" class="team-section">
       <div class="section-wrap team-grid">
-        <div class="team-copy">
+        <div class="team-copy reveal">
           <span class="eyebrow">Quem estará ao seu lado</span>
           <h2>Conhecimento jurídico, cuidado de verdade.</h2>
           <p>
@@ -120,7 +120,7 @@
           <a class="text-link" href="#contato">Fale com a equipe <span aria-hidden="true">→</span></a>
         </div>
         <div class="team-cards">
-          <article class="team-card">
+          <article class="team-card reveal">
             <img src="/img/beatriz-gaia.webp" alt="Retrato de Beatriz Gaia" loading="lazy">
             <div class="team-card-caption">
               <span>Advogada</span>
@@ -128,7 +128,7 @@
               <a href="mailto:beatrizgdecarvalho@gmail.com">Entrar em contato <span aria-hidden="true">↗</span></a>
             </div>
           </article>
-          <article class="team-card team-card-offset">
+          <article class="team-card team-card-offset reveal">
             <img src="/img/niedja-sena.webp" alt="Retrato de Niedja Sena" loading="lazy">
             <div class="team-card-caption">
               <span>Advogada</span>
@@ -142,11 +142,11 @@
 
     <section class="contact-banner">
       <div class="section-wrap contact-banner-inner">
-        <div>
+        <div class="reveal">
           <span class="eyebrow">Conte com orientação jurídica</span>
           <h2>O primeiro passo é uma conversa.</h2>
         </div>
-        <a class="button-light" href="https://wa.me/5582999264158" target="_blank" rel="noopener noreferrer">
+        <a class="button-light reveal" href="https://wa.me/5582999264158" target="_blank" rel="noopener noreferrer">
           Fale com a nossa equipe <span aria-hidden="true">↗</span>
         </a>
       </div>
@@ -154,7 +154,7 @@
 
     <section id="contato" class="contact-section">
       <div class="section-wrap contact-grid">
-        <div class="section-heading">
+        <div class="section-heading reveal">
           <span class="eyebrow">Estamos à disposição</span>
           <h2>Vamos conversar?</h2>
           <p>Entre em contato para saber mais sobre o atendimento e agendar uma conversa.</p>
@@ -162,7 +162,7 @@
             Iniciar conversa pelo WhatsApp <span aria-hidden="true">↗</span>
           </a>
         </div>
-        <div class="contact-details">
+        <div class="contact-details reveal">
           <div class="contact-detail">
             <span class="detail-label">Endereço</span>
             <a href="https://maps.google.com/?q=Rua+Sampaio+Marques+25+Paju%C3%A7ara+Macei%C3%B3+AL" target="_blank" rel="noopener noreferrer">
