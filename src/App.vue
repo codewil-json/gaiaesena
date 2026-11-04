@@ -343,18 +343,18 @@ button:focus-visible, a:focus-visible {
 .footer-main p {
   margin: 0;
   font-family: var(--serif);
-  font-size: 23px;
+  font-size: 19px;
 }
 
 .footer-top {
   color: var(--gold-light);
-  font-size: 15px;
+  font-size: 12px;
   text-decoration: none;
 }
 
 .footer-articles {
   color: var(--gold-light);
-  font-size: 15px;
+  font-size: 12px;
   text-decoration: none;
 }
 
@@ -369,7 +369,7 @@ button:focus-visible, a:focus-visible {
   justify-content: space-between;
   gap: 16px;
   padding-top: 21px;
-  font-size: 14px;
+  font-size: 11px;
   letter-spacing: .04em;
 }
 
@@ -378,7 +378,7 @@ button:focus-visible, a:focus-visible {
   align-items: center;
   gap: 8px;
   color: rgba(255, 255, 255, .54);
-  font-size: 13px;
+  font-size: 9px;
   letter-spacing: .06em;
   text-transform: uppercase;
 }
@@ -434,7 +434,7 @@ button:focus-visible, a:focus-visible {
   margin: 18px 0;
   color: var(--ink);
   font-family: var(--serif);
-  font-size: clamp(45.4px, 5vw, 68px);
+  font-size: clamp(36px, 4vw, 54px);
   font-weight: 500;
   line-height: 1.12;
 }
@@ -625,7 +625,7 @@ body.has-scroll-reveal .reveal:not(.is-visible) {
 
   .footer-main p {
     max-width: 280px;
-    font-size: 21px;
+    font-size: 17px;
   }
 
   .footer-bottom {

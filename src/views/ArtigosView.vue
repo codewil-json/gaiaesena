@@ -410,7 +410,7 @@ export default {
 .articles-hero h1 {
   margin: 20px 0 14px;
   font-family: var(--serif);
-  font-size: clamp(60.5px, 7.6vw, 90.7px);
+  font-size: clamp(48px, 6vw, 72px);
   font-weight: 500;
   letter-spacing: -.035em;
 }
@@ -449,7 +449,7 @@ export default {
   margin: 0 0 32px;
   color: var(--ink);
   font-family: var(--serif);
-  font-size: clamp(37.8px, 5vw, 52.9px);
+  font-size: clamp(30px, 4vw, 42px);
   font-weight: 500;
   line-height: 1.2;
 }
@@ -490,7 +490,7 @@ export default {
   margin: 24px 0 18px;
   color: var(--ink);
   font-family: var(--serif);
-  font-size: clamp(30.2px, 3.8vw, 41px);
+  font-size: clamp(24px, 3vw, 32px);
   font-weight: 500;
   line-height: 1.25;
 }
@@ -565,7 +565,7 @@ export default {
   max-width: 560px;
   margin: 24px 0 12px;
   font-family: var(--serif);
-  font-size: clamp(27px, 3vw, 33.5px);
+  font-size: clamp(21px, 2.4vw, 27px);
   font-weight: 500;
   line-height: 1.28;
 }
@@ -612,7 +612,7 @@ export default {
   bottom: -19px;
   color: rgba(201, 166, 106, .12);
   font-family: var(--serif);
-  font-size: 85.3px;
+  font-size: 68px;
   line-height: 1;
   pointer-events: none;
 }
@@ -652,7 +652,7 @@ export default {
 
   .guide-article h3 {
     margin: 20px 0 14px;
-    font-size: 31.3px;
+    font-size: 25px;
   }
 
   .guide-article > p {

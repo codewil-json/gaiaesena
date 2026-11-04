@@ -115,7 +115,7 @@ export default {
 .practice-hero h1 {
   margin: 20px 0 14px;
   font-family: var(--serif);
-  font-size: clamp(60.5px, 7.6vw, 90.7px);
+  font-size: clamp(48px, 6vw, 72px);
   font-weight: 500;
   letter-spacing: -.035em;
 }
@@ -178,7 +178,7 @@ export default {
 .detail-content h2 {
   margin: 0 0 13px;
   font-family: var(--serif);
-  font-size: 36.7px;
+  font-size: 29px;
   font-weight: 500;
 }
 
@@ -231,7 +231,7 @@ export default {
 .practice-cta h2 {
   margin: 14px 0 8px;
   font-family: var(--serif);
-  font-size: clamp(37.8px, 5vw, 54px);
+  font-size: clamp(30px, 4vw, 43px);
   font-weight: 500;
 }
 
@@ -296,7 +296,7 @@ export default {
   }
 
   .detail-content h2 {
-    font-size: 31.3px;
+    font-size: 25px;
   }
 
   .detail-content p {
@@ -313,7 +313,7 @@ export default {
   }
 
   .practice-cta h2 {
-    font-size: 44.3px;
+    font-size: 35px;
   }
 }
 </style>

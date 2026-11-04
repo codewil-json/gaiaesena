@@ -228,7 +228,7 @@ export default {
   margin: 25px 0 20px;
   color: var(--forest-deep);
   font-family: var(--serif);
-  font-size: clamp(57.2px, 6.5vw, 88.6px);
+  font-size: clamp(45px, 5.2vw, 70px);
   font-weight: 500;
   letter-spacing: -.035em;
   line-height: 1.08;
@@ -351,7 +351,7 @@ export default {
 
 .hero-visual-caption span {
   font-family: var(--serif);
-  font-size: 27px;
+  font-size: 21px;
 }
 
 .hero-visual-caption b {
@@ -372,7 +372,7 @@ export default {
   left: 1%;
   color: var(--gold);
   font-family: var(--serif);
-  font-size: 70.2px;
+  font-size: 56px;
   opacity: .7;
 }
 
@@ -414,7 +414,7 @@ export default {
   max-width: 540px;
   margin: 22px 0 0;
   font-family: var(--serif);
-  font-size: clamp(45.4px, 5vw, 68px);
+  font-size: clamp(36px, 4vw, 54px);
   font-weight: 500;
   letter-spacing: -.025em;
   line-height: 1.15;
@@ -490,13 +490,13 @@ export default {
   right: 25px;
   color: var(--gold);
   font-family: var(--serif);
-  font-size: 33.5px;
+  font-size: 27px;
 }
 
 .practice-card h3 {
   margin: 42px 0 11px;
   font-family: var(--serif);
-  font-size: 25.9px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -544,7 +544,7 @@ export default {
 .team-copy h2 {
   margin: 21px 0 16px;
   font-family: var(--serif);
-  font-size: clamp(45.4px, 5vw, 62.6px);
+  font-size: clamp(36px, 4vw, 50px);
   font-weight: 500;
   letter-spacing: -.025em;
   line-height: 1.13;
@@ -602,7 +602,7 @@ export default {
 .team-card-caption h3 {
   margin: 5px 0 13px;
   font-family: var(--serif);
-  font-size: 27px;
+  font-size: 21px;
   font-weight: 500;
 }
 
@@ -638,7 +638,7 @@ export default {
 .contact-banner h2 {
   margin: 15px 0 0;
   font-family: var(--serif);
-  font-size: clamp(38.9px, 4.6vw, 58.3px);
+  font-size: clamp(31px, 3.7vw, 46px);
   font-weight: 500;
 }
 
@@ -778,7 +778,7 @@ export default {
 
   .hero-copy h1 {
     margin-top: 20px;
-    font-size: clamp(54px, 15.1vw, 73.4px);
+    font-size: clamp(43px, 12vw, 58px);
   }
 
   .hero-copy > p {
@@ -845,7 +845,7 @@ export default {
   .office-intro h2,
   .section-heading h2,
   .team-copy h2 {
-    font-size: 48.6px;
+    font-size: 39px;
   }
 
   .office-copy p,
@@ -926,7 +926,7 @@ export default {
   }
 
   .contact-banner h2 {
-    font-size: 44.3px;
+    font-size: 35px;
   }
 
   .contact-grid {
