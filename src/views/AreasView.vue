@@ -9,7 +9,10 @@
           Cada situação é analisada com atenção às suas particularidades.
         </p>
         <a class="button-primary" href="https://wa.me/5582999264158" target="_blank" rel="noopener noreferrer">
-          Converse com uma advogada <span aria-hidden="true">↗</span>
+          Converse com uma advogada
+          <svg class="button-arrow" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+            <path d="M5 15 15 5M6 5h9v9" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+          </svg>
         </a>
       </div>
     </section>
@@ -84,7 +87,10 @@
           <p>Entre em contato para conversar sobre a sua situação.</p>
         </div>
         <a class="button-light" href="https://wa.me/5582999264158" target="_blank" rel="noopener noreferrer">
-          Fale com a equipe <span aria-hidden="true">↗</span>
+          Fale com a equipe
+          <svg class="button-arrow" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+            <path d="M5 15 15 5M6 5h9v9" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+          </svg>
         </a>
       </div>
     </section>

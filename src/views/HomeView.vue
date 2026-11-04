@@ -11,7 +11,10 @@
           </p>
           <div class="hero-actions">
             <a class="button-primary" href="https://wa.me/5582999264158" target="_blank" rel="noopener noreferrer">
-              Converse com uma advogada <span aria-hidden="true">↗</span>
+              Converse com uma advogada
+              <svg class="button-arrow" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+                <path d="M5 15 15 5M6 5h9v9" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+              </svg>
             </a>
             <a class="text-link" href="#atuacao">Conheça nossa atuação <span aria-hidden="true">↓</span></a>
           </div>
@@ -21,7 +24,7 @@
           </div>
         </div>
 
-        <div class="hero-visual reveal" aria-label="Retratos das advogadas do escritório">
+        <div class="hero-visual reveal" aria-label="Retratos das advogadas">
           <div class="hero-photo hero-photo-main">
             <img src="/img/beatriz-gaia.webp" alt="Dra. Beatriz Gaia, advogada">
           </div>
@@ -37,7 +40,7 @@
       </div>
       <div class="hero-bottom reveal">
         <span>Atuação pautada por ética e transparência</span>
-        <a href="#escritorio">Conheça o escritório <span aria-hidden="true">↓</span></a>
+        <a href="#escritorio">Saiba mais sobre nós <span aria-hidden="true">↓</span></a>
       </div>
     </section>
 
@@ -114,7 +117,7 @@
           <span class="eyebrow">Quem estará ao seu lado</span>
           <h2>Conhecimento jurídico, cuidado de verdade.</h2>
           <p>
-            Beatriz Gaia e Niedja Sena conduzem o escritório com compromisso
+            Beatriz Gaia e Niedja Sena exercem a advocacia com compromisso
             profissional e atenção genuína às pessoas que confiam em seu trabalho.
           </p>
           <a class="text-link" href="#contato">Fale com a equipe <span aria-hidden="true">→</span></a>
@@ -147,7 +150,10 @@
           <h2>O primeiro passo é uma conversa.</h2>
         </div>
         <a class="button-light reveal" href="https://wa.me/5582999264158" target="_blank" rel="noopener noreferrer">
-          Fale com a nossa equipe <span aria-hidden="true">↗</span>
+          Fale com a nossa equipe
+          <svg class="button-arrow" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+            <path d="M5 15 15 5M6 5h9v9" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+          </svg>
         </a>
       </div>
     </section>
@@ -159,7 +165,10 @@
           <h2>Vamos conversar?</h2>
           <p>Entre em contato para saber mais sobre o atendimento e agendar uma conversa.</p>
           <a class="button-primary contact-primary" href="https://wa.me/5582999264158" target="_blank" rel="noopener noreferrer">
-            Iniciar conversa pelo WhatsApp <span aria-hidden="true">↗</span>
+            Iniciar conversa pelo WhatsApp
+            <svg class="button-arrow" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+              <path d="M5 15 15 5M6 5h9v9" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+            </svg>
           </a>
         </div>
         <div class="contact-details reveal">

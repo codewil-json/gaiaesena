@@ -21,11 +21,14 @@
 
         <nav id="main-navigation" class="main-navigation" :class="{ 'is-open': menuOpen }" aria-label="Navegação principal">
           <router-link to="/" @click="menuOpen = false">Início</router-link>
-          <router-link :to="{ path: '/', hash: '#escritorio' }" @click="menuOpen = false">O escritório</router-link>
+          <router-link :to="{ path: '/', hash: '#escritorio' }" @click="menuOpen = false">Sobre nós</router-link>
           <router-link to="/areas-de-atuacao" @click="menuOpen = false">Atuação</router-link>
           <router-link :to="{ path: '/', hash: '#contato' }" @click="menuOpen = false">Contato</router-link>
           <a class="header-cta" href="https://wa.me/5582999264158" target="_blank" rel="noopener noreferrer">
-            Fale com a equipe <span aria-hidden="true">↗</span>
+            Fale com a equipe
+            <svg class="button-arrow" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+              <path d="M5 15 15 5M6 5h9v9" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+            </svg>
           </a>
         </nav>
       </div>
@@ -282,6 +285,12 @@ button:focus-visible, a:focus-visible {
   font-size: 11px;
 }
 
+.button-arrow {
+  width: 15px;
+  height: 15px;
+  flex: 0 0 auto;
+}
+
 .header-cta:hover {
   color: var(--forest-deep);
   background: var(--white);
@@ -495,6 +504,10 @@ body.has-scroll-reveal .reveal:not(.is-visible) {
     scroll-padding-top: 78px;
   }
 
+  .site-header {
+    backdrop-filter: none;
+  }
+
   .header-inner {
     width: calc(100% - 36px);
     height: 72px;
@@ -506,6 +519,7 @@ body.has-scroll-reveal .reveal:not(.is-visible) {
 
   .menu-toggle {
     position: relative;
+    z-index: 2;
     width: 44px;
     height: 44px;
     display: flex;
@@ -535,32 +549,36 @@ body.has-scroll-reveal .reveal:not(.is-visible) {
   }
 
   .main-navigation {
-    position: absolute;
-    top: 71px;
-    right: 0;
-    left: 0;
+    position: fixed;
+    z-index: 1;
+    inset: 0 auto 0 0;
     display: flex;
     align-items: stretch;
+    justify-content: center;
     gap: 0;
-    padding: 12px 24px 24px;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    padding: 88px 32px 32px;
     background: var(--brand-bg);
-    border-bottom: 1px solid rgba(255, 255, 255, .12);
-    box-shadow: 0 16px 24px rgba(16, 43, 45, .16);
-    clip-path: inset(0 100% 0 0);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    transform: translateX(-100%);
     visibility: hidden;
     pointer-events: none;
     transition:
-      clip-path .42s cubic-bezier(.22, .68, 0, 1),
+      transform .42s cubic-bezier(.22, .68, 0, 1),
       visibility 0s linear .42s;
+    will-change: transform;
   }
 
   .main-navigation.is-open {
     flex-direction: column;
-    clip-path: inset(0);
+    transform: translateX(0);
     visibility: visible;
     pointer-events: auto;
     transition:
-      clip-path .42s cubic-bezier(.22, .68, 0, 1),
+      transform .42s cubic-bezier(.22, .68, 0, 1),
       visibility 0s;
   }
 
