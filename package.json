@@ -7,6 +7,11 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  {
+    "engines": {
+      "node": "24.x"
+    }
+  },
   "dependencies": {
     "core-js": "^3.8.3",
     "register-service-worker": "^1.7.2",
