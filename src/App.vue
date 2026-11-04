@@ -48,7 +48,9 @@
         <span>Maceió · Alagoas</span>
         <span class="developer-credit">
           <span>Desenvolvido por</span>
-          <img src="/img/credit-cw.webp" alt="CW — desenvolvimento web" loading="lazy">
+          <a href="https://codewil.site" target="_blank" rel="noopener noreferrer" aria-label="Codewil — site oficial">
+            <img src="/img/credit-cw.webp" alt="CW — desenvolvimento web" loading="lazy">
+          </a>
         </span>
       </div>
     </footer>
@@ -309,11 +311,24 @@ button:focus-visible, a:focus-visible {
   text-transform: uppercase;
 }
 
+.developer-credit a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.developer-credit a:hover {
+  opacity: 1;
+}
+
 .developer-credit img {
-  width: 49px;
+  width: 52px;
   height: auto;
   display: block;
   opacity: .76;
+  vertical-align: middle;
 }
 
 .eyebrow {
