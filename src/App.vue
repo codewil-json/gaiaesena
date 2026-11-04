@@ -44,6 +44,7 @@
           <img src="/img/logo-gaia-sena.webp" alt="Gaia & Sena Advogados Associados">
         </router-link>
         <p>Advocacia com escuta, clareza e compromisso em cada etapa.</p>
+        <router-link class="footer-articles" to="/artigos">Artigos jurídicos</router-link>
         <a class="footer-top" href="#topo" @click.prevent="windowScrollTop">Voltar ao topo ↑</a>
       </div>
       <div class="footer-bottom">
@@ -66,12 +67,13 @@ export default {
   data() {
     return {
       menuOpen: false,
-      revealObserver: null
+      revealObserver: null,
+      revealMutationObserver: null
     }
   },
   mounted() {
     if (
-      window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches)
       || !('IntersectionObserver' in window)
     ) {
       return
@@ -91,6 +93,11 @@ export default {
 
     document.body.classList.add('has-scroll-reveal')
     this.observeRevealElements()
+    this.revealMutationObserver = new MutationObserver(() => this.observeRevealElements())
+    this.revealMutationObserver.observe(document.getElementById('conteudo'), {
+      childList: true,
+      subtree: true
+    })
   },
   watch: {
     $route() {
@@ -100,6 +107,9 @@ export default {
   beforeUnmount() {
     if (this.revealObserver) {
       this.revealObserver.disconnect()
+    }
+    if (this.revealMutationObserver) {
+      this.revealMutationObserver.disconnect()
     }
     document.body.classList.remove('has-scroll-reveal')
   },
@@ -340,6 +350,17 @@ button:focus-visible, a:focus-visible {
   color: var(--gold-light);
   font-size: 12px;
   text-decoration: none;
+}
+
+.footer-articles {
+  color: var(--gold-light);
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.footer-articles:hover,
+.footer-top:hover {
+  color: var(--white);
 }
 
 .footer-bottom {

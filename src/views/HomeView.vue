@@ -173,13 +173,8 @@
         </div>
         <div class="contact-details reveal">
           <div class="contact-detail">
-            <span class="detail-label">Endereço</span>
-            <a href="https://maps.google.com/?q=Rua+Sampaio+Marques+25+Paju%C3%A7ara+Macei%C3%B3+AL" target="_blank" rel="noopener noreferrer">
-              Rua Sampaio Marques, 25<br>
-              Ed. Delman Empresarial, Sala 217<br>
-              Pajuçara · CEP 57030-107
-              <span class="detail-arrow" aria-hidden="true">↗</span>
-            </a>
+            <span class="detail-label">Localidade</span>
+            <span>Maceió · Alagoas</span>
           </div>
           <div class="contact-detail">
             <span class="detail-label">Telefones</span>
@@ -199,14 +194,7 @@
 
 <script>
 export default {
-  name: 'HomeView',
-  mounted() {
-    document.title = 'Gaia & Sena Advogados Associados | Advocacia em Maceió'
-    document.querySelector('meta[name="description"]')?.setAttribute(
-      'content',
-      'Gaia & Sena Advogados Associados em Maceió, AL. Atendimento em Família e Sucessões, Penal, Trabalhista e Previdenciário.'
-    )
-  }
+  name: 'HomeView'
 }
 </script>
 

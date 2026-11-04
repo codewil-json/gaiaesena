@@ -99,14 +99,7 @@
 
 <script>
 export default {
-  name: 'AreasView',
-  mounted() {
-    document.title = 'Áreas de Atuação | Gaia & Sena Advogados Associados'
-    document.querySelector('meta[name="description"]')?.setAttribute(
-      'content',
-      'Conheça as áreas de atuação da Gaia & Sena Advogados Associados em Maceió: Família e Sucessões, Penal, Trabalhista e Previdenciário.'
-    )
-  }
+  name: 'AreasView'
 }
 </script>
 

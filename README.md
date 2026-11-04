@@ -43,6 +43,15 @@ Os mesmos scripts podem ser executados com npm (`npm run serve`, `npm run build`
 
 - `/` — página inicial, apresentação do escritório, equipe e contato.
 - `/areas-de-atuacao` — informações sobre Família e Sucessões, Penal, Trabalhista e Previdenciário.
+- `/artigos` — guias jurídicos informativos e notícias recentes do Consultor Jurídico; a rota não aparece no menu principal.
+
+## SEO e indexação
+
+- O build pré-renderiza as páginas inicial, de atuação e de artigos em HTML para que conteúdo, títulos e descrições estejam presentes na resposta inicial.
+- `public/robots.txt` permite rastreamento e informa o sitemap em `https://www.gaiaesena.adv.br/sitemap.xml`.
+- Atualize `public/sitemap.xml` e os caminhos pré-renderizados em `vue.config.js` sempre que novas páginas públicas forem adicionadas.
+- Depois de publicar e apontar o DNS do domínio para a hospedagem, valide a propriedade no Google Search Console, envie o sitemap e solicite a indexação das URLs principais. O código do site não consegue executar essa etapa sem acesso à conta.
+- A hospedagem deve servir os arquivos estáticos gerados no `dist/` e manter HTTPS ativo para o domínio canônico com `www`.
 
 ## Estrutura do projeto
 

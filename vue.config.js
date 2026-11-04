@@ -1,6 +1,21 @@
 const { defineConfig } = require('@vue/cli-service')
+const PrerendererWebpackPlugin = require('@prerenderer/webpack-plugin')
+
 module.exports = defineConfig({
   transpileDependencies: true,
+  configureWebpack: {
+    plugins: [
+      new PrerendererWebpackPlugin({
+        routes: ['/', '/areas-de-atuacao', '/artigos'],
+        renderer: '@prerenderer/renderer-jsdom',
+        rendererOptions: {
+          renderAfterDocumentEvent: 'app-rendered',
+          inject: { prerendering: true },
+          timeout: 20000
+        }
+      })
+    ]
+  },
   pwa: {
     name: 'Gaia & Sena Advogados Associados',
     themeColor: '#23333e',

@@ -4,14 +4,21 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta name="description" content="Gaia &amp; Sena Advogados Associados em Maceió, AL. Atendimento em Família e Sucessões, Penal, Trabalhista e Previdenciário.">
+    <meta name="description" content="Gaia &amp; Sena Advogados em Maceió, AL. Orientação jurídica em Família e Sucessões, Direito Penal, Trabalhista e Previdenciário.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="theme-color" content="#23333e">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Gaia &amp; Sena Advogados">
+    <meta property="og:url" content="https://www.gaiaesena.adv.br/">
     <meta property="og:title" content="Gaia &amp; Sena Advogados Associados | Advocacia em Maceió">
     <meta property="og:description" content="Advocacia próxima e comprometida em Família e Sucessões, Penal, Trabalhista e Previdenciário. Atendimento em Maceió, Alagoas.">
-    <meta property="og:image" content="<%= BASE_URL %>img/logo-gaia-sena.webp">
+    <meta property="og:image" content="https://www.gaiaesena.adv.br/img/logo-gaia-sena.webp">
     <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Gaia &amp; Sena Advogados Associados | Advocacia em Maceió">
+    <meta name="twitter:description" content="Orientação jurídica em Família e Sucessões, Direito Penal, Trabalhista e Previdenciário em Maceió, AL.">
+    <meta name="twitter:image" content="https://www.gaiaesena.adv.br/img/logo-gaia-sena.webp">
+    <link rel="canonical" href="https://www.gaiaesena.adv.br/">
     <link rel="icon" type="image/x-icon" href="<%= BASE_URL %>favicon.ico?v=gaia-sena">
     <link rel="shortcut icon" type="image/x-icon" href="<%= BASE_URL %>favicon.ico?v=gaia-sena">
     <title>Gaia &amp; Sena Advogados Associados | Advocacia em Maceió</title>
@@ -19,20 +26,22 @@
       {
         "@context": "https://schema.org",
         "@type": "LegalService",
+        "@id": "https://www.gaiaesena.adv.br/#legal-service",
         "name": "Gaia & Sena Advogados Associados",
-        "image": "/img/logo-gaia-sena.webp",
+        "url": "https://www.gaiaesena.adv.br/",
+        "image": "https://www.gaiaesena.adv.br/img/logo-gaia-sena.webp",
+        "logo": "https://www.gaiaesena.adv.br/img/logo-gaia-sena.webp",
         "email": ["beatrizgdecarvalho@gmail.com", "niedjasena.adv@gmail.com"],
         "telephone": ["+55 82 99926-4158", "+55 82 98849-2067"],
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Rua Sampaio Marques, 25, Ed. Delman Empresarial, Sala 217",
-          "addressLocality": "Maceió",
-          "addressRegion": "AL",
-          "postalCode": "57030-107",
-          "addressCountry": "BR"
+        "areaServed": {
+          "@type": "City",
+          "name": "Maceió",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Alagoas"
+          }
         },
-        "areaServed": "Maceió, AL",
-        "knowsAbout": ["Família e Sucessões", "Direito Penal", "Direito Trabalhista", "Direito Previdenciário"]
+        "knowsAbout": ["Direito de Família", "Sucessões", "Direito Penal", "Direito Trabalhista", "Direito Previdenciário"]
       }
     </script>
   </head>
