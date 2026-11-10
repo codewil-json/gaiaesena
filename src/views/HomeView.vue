@@ -748,9 +748,26 @@ export default {
     gap: 17px;
   }
 
+  .practice-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .practice-card {
     padding-right: 17px;
     padding-left: 17px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .practice-card:nth-child(odd) {
+    border-left: 1px solid var(--line);
+  }
+
+  .practice-card:nth-child(even) {
+    border-right: 1px solid var(--line);
+  }
+
+  .practice-card:nth-last-child(-n+2) {
+    border-bottom: 0;
   }
 
   .practice-card h3 {
@@ -760,6 +777,13 @@ export default {
   .team-grid {
     grid-template-columns: .75fr 1.25fr;
     gap: 5%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero-photo-secondary {
+    bottom: 72px;
+    height: 45%;
   }
 }
 
@@ -803,30 +827,45 @@ export default {
   .hero-photo-main {
     right: 18px;
     width: 59%;
-    height: 80%;
+    height: 72%;
   }
 
   .hero-photo-secondary {
     left: 0;
     width: 43%;
-    height: 57%;
+    height: 43%;
   }
 
   .hero-visual-caption {
     right: 0;
     bottom: 0;
+    max-width: 100%;
+  }
+
+  .hero-visual-caption small {
+    font-size: clamp(12px, 3.5vw, 14px);
+    letter-spacing: .12em;
   }
 
   .hero-bottom {
     min-height: 56px;
-    gap: 15px;
-    padding: 0 20px;
-    font-size: 16px;
-    letter-spacing: .07em;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 9px;
+    padding: 12px 20px;
+    font-size: 13px;
+    letter-spacing: .08em;
   }
 
   .hero-bottom a {
-    flex-shrink: 0;
+    align-self: flex-end;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .practice-card {
+    padding: 22px 16px 19px;
   }
 
   .office-section,
@@ -858,30 +897,16 @@ export default {
   }
 
   .practice-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .practice-card {
     min-height: 240px;
-    padding: 22px 16px 19px;
-    border-bottom: 1px solid var(--line);
-  }
-
-  .practice-card:nth-child(odd) {
-    border-left: 1px solid var(--line);
-  }
-
-  .practice-card:nth-child(even) {
-    border-right: 1px solid var(--line);
-  }
-
-  .practice-card:nth-last-child(-n+2) {
-    border-bottom: 0;
   }
 
   .practice-card h3 {
     margin-top: 37px;
-    font-size: 22.7px;
+    font-size: clamp(18px, 4.5vw, 22px);
   }
 
   .practice-card p {
@@ -931,6 +956,25 @@ export default {
 
   .contact-grid {
     gap: 38px;
+  }
+}
+
+@media (max-width: 359px) {
+  .practice-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .practice-card:nth-child(n) {
+    border-right: 1px solid var(--line);
+    border-left: 1px solid var(--line);
+  }
+
+  .practice-card:nth-last-child(-n+2) {
+    border-bottom: 1px solid var(--line);
+  }
+
+  .practice-card:last-child {
+    border-bottom: 0;
   }
 }
 </style>
